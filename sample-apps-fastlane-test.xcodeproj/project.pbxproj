@@ -14,6 +14,7 @@
 		1B68A234223FD203002EC453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B68A232223FD203002EC453 /* LaunchScreen.storyboard */; };
 		1B68A23F223FD203002EC453 /* sample_apps_fastlane_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68A23E223FD203002EC453 /* sample_apps_fastlane_testTests.swift */; };
 		1B68A24A223FD203002EC453 /* sample_apps_fastlane_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68A249223FD203002EC453 /* sample_apps_fastlane_testUITests.swift */; };
+		A16A41DD23A8E51100F94395 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A41DB23A8E45600F94395 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1B68A245223FD203002EC453 /* sample-apps-fastlane-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-fastlane-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B68A249223FD203002EC453 /* sample_apps_fastlane_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_apps_fastlane_testUITests.swift; sourceTree = "<group>"; };
 		1B68A24B223FD203002EC453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16A41DB23A8E45600F94395 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = "sample-apps-fastlane-testUITests/SnapshotHelper.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		1B68A248223FD203002EC453 /* sample-apps-fastlane-testUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A16A41DB23A8E45600F94395 /* SnapshotHelper.swift */,
 				1B68A249223FD203002EC453 /* sample_apps_fastlane_testUITests.swift */,
 				1B68A24B223FD203002EC453 /* Info.plist */,
 			);
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16A41DD23A8E51100F94395 /* SnapshotHelper.swift in Sources */,
 				1B68A24A223FD203002EC453 /* sample_apps_fastlane_testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,6 +20,10 @@ platform :ios do
   lane :tests do
     run_tests(scheme: "sample-apps-fastlane-test")
   end
+  
+  lane :screenshots do
+    capture_screenshots
+  end
 
   desc "Push a new release build to the App Store"
   lane :release do
