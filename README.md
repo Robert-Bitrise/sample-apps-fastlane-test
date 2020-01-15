@@ -1,2 +1,2 @@
 # sample-apps-fastlane-test
-test
+test2
