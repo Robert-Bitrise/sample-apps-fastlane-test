@@ -3,4 +3,4 @@
 now="$(date +'%Y-%m-%d %H:%M:%S')"
 printf "Starting simple.sh at %s\n" "$now"
 
-./simple.swift
+./TestScripts/simple.swift
